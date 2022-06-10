@@ -1,0 +1,61 @@
+// Inputs
+Enter Village Name,మీ ఊరు పేరు
+Enter Your Name,మీ పేరు రాయండి
+Enter code,కోడ్ ఎంటర్ చేయండి
+Your phone number,మీ ఫోన్ నంబర్
+
+// Input Helpers
+A 6 digit OTP number will be sent via SMS to verify phone number.,ఫోన్ నంబర్‌ను ధృవీకరించడానికి 6 అంకెల Verification నంబర్ SMS ద్వారా పంపబడుతుంది.
+Auto verifying in 02:23,స్వీయ ధృవీకరణ
+Medicines will be delivered to this location,ఈ ప్రదేశానికి మందులు పంపిణీ చేయబడతాయి
+
+// Input Labels
+Name,పేరు
+Village/Town/City,పల్లె/ఊరు/పట్టణం
+Detected Address,గుర్తించిన ప్రదేశము
+
+// Headings
+Welcome,స్వాగతం
+Login,లాగిన్
+Verify,తిరిగి సరిచుడుట
+Profile,ప్రొఫైల్
+For Better Animal HealthCare,మెరుగైన జంతు ఆరోగ్య సంరక్షణ కొరకు
+
+// Subheadings
+Please select your preferred language ,దయచేసి మీకు నచ్చిన భాషను ఎంచుకోండి
+Please enter your phone number,దయచేసి ఫోన్ నెంబర్ నమోదు చేయండి
+Please enter the verification code sent to,దయచేసి పంపిన ధృవీకరణ కోడ్‌ని నమోదు చేయండి
+Please enter your contact details,మీ ఫోన్ నెంబర్ ఎంటర్ చేయండి
+
+// Buttons
+Continue,కొనసాగించు
+Get Started,ప్రారంభించండి
+Resend Code,కోడ్ మళ్లీ పంపుము
+Need Help ?,మరేదైనా సహాయం కావాలా?
+
+// Menu
+Help & Support,సహాయం మరియు సూచనలు
+Rate our app,మా యాప్ రేటింగ్
+About us,మా గురించి
+Invite Friends,స్నేహితులను ఆహ్వానించండి
+Change App Language,యాప్ భాషను మార్చుట
+Home,హోమ్
+Medicines,మందులు
+
+// Title
+Available Doctors,అందుబాటులో ఉన్న పశువైద్యులు
+Urban Wild Life,పట్టణ అడవి జంతువులు
+"By getting started you'll be agreed to Terms of use and Privacy Policy.",నిబంధనలు మరియు షరతులకు అంగీకరిస్తున్నారు
+"Exotic Birds - ",విదేశీ పక్షులు
+"Farm Animals - Cattle Buffalo Sheep Goat"," పాడిపశువులు/జీవాలు: ఆవులు, గేదెలు, గొర్రెలు, మేకలు"
+"Pets - Dogs, Cats, Poultry","పెంపుడు జంతువులు : కుక్కలు, పిల్లులు మరియు కోళ్లు"
+
+// Messages
+No data Found,డేటా కనుగొనబడలేదు
+"The code you entered is invalid Please try again","మీరు నమోదు చేసిన డేటా చెల్లదు దయచేసి మళ్లీ ప్రయత్నించండి"
+Something went wrong,ఎక్కడో తేడ జరిగింది
+No Medicines List Found,మందుల జాబితా లేదు
+Please Fill all the details,దయచేసి అన్ని వివరాలను పూరించండి
+Are you sure to exit ?,మీరు నిష్క్రమించడానికి ఖచ్చితంగా ఉన్నారా
+connecting,సరిచేయుట
+speaking to," ..తో మాట్లాడుతున్నారు"
