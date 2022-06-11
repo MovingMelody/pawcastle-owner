@@ -1,0 +1,58 @@
+{
+    "inputLandmark" : "Enter Village Name",
+    "inputName" : "Enter Your Name",
+    "inputPhone" : "Your Mobile number",
+    "inputCode" : "Enter code",
+    
+    "helperPhoneCode" : "A 6 digit verification code will be sent via SMS to verify Mobile number.",
+    "helperPhoneCapture" : "Auto verifying in",
+    "helperMedicines" : "* Medicines will be delivered to this location",
+    "helperPerferredLanguage" : "The Preferred Language is set to ",
+    "helperChangeLanguage" : "can be modified in the Settings.",
+
+    "labelName" : "Name",
+    "labelLandmark" : "Street Name",
+    "labelAddress" : "Detected Address",
+
+    "headingWelcome" : "Welcome",
+    "headingLogin" : "Login",
+    "headingVerify" : "Verify",
+    "headingProfile" : "Profile",
+    "headingOnboarding" : "For Better Animal HealthCare",
+    "headingAvailableDoctors" : "Available Doctors",
+    "headingWait" : "Please wait",
+    
+    "subheadingWelcome" : "Please select your preferred language",
+    "subheadingLogin" : "Please enter your Mobile number",
+    "subheadingVerify" : "Please enter the verification code sent to",
+    "animalCategoryFarmAnimals" : "FARM ANIMALS",
+    "animalCategoryPets" : "PETS",
+    "animalCategoryBirds" : "EXOTIC BIRDS/OTHERS",
+    
+    "buttonContinue" : "Continue",
+    "buttonGetStarted" : "Get Started",
+    "buttonResendCode" : "Resend code",
+    "buttonNeedHelp" : "Need Help?",
+    
+    "menuHelp" : "Help & Support",
+    "menuRateApp" : "Rate our app",
+    "menuAbout" : "About us",
+    "menuInvite" : "Invite Friends",
+    "menuChangeLanguage" : "Change App Language",
+    "menuHome" : "Home",
+    "menuMedicines" : "Medicines",
+    "menuProfile" : "Profile",
+
+    "titleTermsOfUse" : "You are agreeing to the Terms and Conditions by clicking on Continue.",
+
+    "titleAnimalNameCattle" : "Cattle",
+    "titleAnimalNameBuffalo" : "Buffalo",
+    "titleAnimalNameSheep" : "Sheep",
+    "titleAnimalNameGoat" : "Goat",
+    "titleAnimalNameDogs" : "Dogs",
+    "titleAnimalNameCats" : "Cats",
+    "titleAnimalNamePoultry" : "Poultry",
+    "titleAnimalNameBird" : "Bird",
+    "titleAnimalOthers" : "Others"
+
+}

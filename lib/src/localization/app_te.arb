@@ -1,0 +1,57 @@
+{
+    "inputLandmark" : "మీ ఊరు పేరు",
+    "inputName" : "మీ పేరు రాయండి",
+    "inputPhone" : "మీ ఫోన్ నంబర్",
+    "inputCode" : "కోడ్ ఎంటర్ చేయండి",
+    
+    "helperPhoneCode" : "ఫోన్ నంబర్‌ను ధృవీకరించడానికి 6 అంకెల Verification నంబర్ SMS ద్వారా పంపబడుతుంది.",
+    "helperPhoneCapture" : "Auto verifying in",
+    "helperMedicines" : "ఈ ప్రదేశానికి మందులు పంపిణీ చేయబడతాయి",
+    "helperPerferredLanguage" : "మీరు ఎంచుకున్న భాష ",
+    "helperChangeLanguage" : "తర్వాత సెట్టింగ్‌లలో మార్చవచ్చు",
+
+    "labelName" : "పేరు",
+    "labelLandmark" : "పల్లె/ఊరు/పట్టణం",
+    "labelAddress" : "గుర్తించిన ప్రదేశము",
+
+    "headingWelcome" : "స్వాగతం",
+    "headingLogin" : "లాగిన్",
+    "headingVerify" : "ధృవీకరణ",
+    "headingProfile" : "ప్రొఫైల్",
+    "headingOnboarding" : "మెరుగైన జంతు ఆరోగ్య సంరక్షణ కొరకు",
+    "headingAvailableDoctors" : "అందుబాటులో ఉన్న వైద్యులు",
+    "headingWait" : "దయచేసి వేచి ఉండండి",
+    
+    "subheadingWelcome" : "దయచేసి మీకు నచ్చిన భాషను ఎంచుకోండి",
+    "subheadingLogin" : "దయచేసి ఫోన్ నెంబర్ నమోదు చేయండి",
+    "subheadingVerify" : "దయచేసి పంపిన ధృవీకరణ కోడ్‌ని నమోదు చేయండి",
+    "animalCategoryFarmAnimals" : "వ్యవసాయ జంతువులు",
+    "animalCategoryPets" : "పెంపుడు జంతువులు",
+    "animalCategoryBirds" : "పక్షులు",
+
+    
+    "buttonContinue" : "కొనసాగించు",
+    "buttonGetStarted" : "ప్రారంభించండి",
+    "buttonResendCode" : "కోడ్ మళ్లీ పంపుము",
+    "buttonNeedHelp" : "సహాయం కావాలా?",
+    
+    "menuHelp" : "సహాయం మరియు సూచనలు",
+    "menuRateApp" : "రేటింగ్ ఇవ్వండి",
+    "menuAbout" : "మా గురించి",
+    "menuInvite" : "స్నేహితులను ఆహ్వానించండి",
+    "menuChangeLanguage" : "భాషను ఎంచుకోండి",
+    "menuHome" : "హోమ్",
+    "menuMedicines" : "మందులు",
+    "menuProfile" : "ప్రొఫైల్",
+
+    "titleTermsOfUse" : "నిబంధనలు మరియు షరతులకు అంగీకరిస్తున్నారు",
+    "titleAnimalNameCattle" : "ఆవు",
+    "titleAnimalNameBuffalo" : "గేదె",
+    "titleAnimalNameSheep" : "గొర్రె",
+    "titleAnimalNameGoat" : "మేక",
+    "titleAnimalNameDogs" : "కుక్క",
+    "titleAnimalNameCats" : "పిల్లి",
+    "titleAnimalNamePoultry" : "కోళ్లు",
+    "titleAnimalNameBird" : "పక్షులు",
+    "titleAnimalOthers" : "ఇతర జంతువులు"
+}

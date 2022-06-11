@@ -1,0 +1,9 @@
+const String kDefaultErrorTitle = "Sorry!";
+const String kDefaultErrorMessage = "Something went wrong, please try again";
+const String kConfirmExitTitle = "Are you sure to exit?";
+const String kConfirmOTPExitTitle = "Are you sure to modify the Mobile number?";
+const String kConfirmExitMessage = "👋 Bye!";
+const String kCallExitTitle = "Are you sure to exit?";
+const String kCallExitMessage = "Your call will end after you exit";
+const String kRupeeSymbol = "₹";
+const String kAppName = "PawCastle";
