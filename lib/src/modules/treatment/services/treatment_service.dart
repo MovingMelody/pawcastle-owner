@@ -59,7 +59,8 @@ class TreatmentService {
   /// creates a new treatment with auto generated [caseId]
   Future<Treatment?> createTreatment(
       Doctor doctor, String selectedSpecies) async {
-    bool isFreeTreatment = selectedSpecies.isFarmAnimals;
+    bool isFreeTreatment = true;
+    // selectedSpecies.isFarmAnimals;
 
     var patient = TreatmentPatient.fromUser(_userService.currentUser)
         .copyWith(species: selectedSpecies);

@@ -67,6 +67,7 @@ class HomeView extends StatelessWidget {
                     ],
                   ),
                   verticalSpaceSmall,
+                  verticalSpaceSmall,
                   ...model.getAnimalCategories
                       .map((e) => (e.type != "farm animals" &&
                               e.type != "exotic birds/others")
@@ -77,11 +78,11 @@ class HomeView extends StatelessWidget {
                                 UIText.label(getAnimalName(context, e.type)),
                                 Container(
                                   height:
-                                      MediaQuery.of(context).size.height / 5,
+                                      MediaQuery.of(context).size.height / 2,
                                   margin: const EdgeInsets.only(top: 4),
                                   child: ListView(
                                     shrinkWrap: true,
-                                    scrollDirection: Axis.horizontal,
+                                    scrollDirection: Axis.vertical,
                                     children: e.species
                                         .map((eachSpecies) => InkWell(
                                               onTap: () => model

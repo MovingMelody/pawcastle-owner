@@ -147,8 +147,7 @@ class CallerScreenViewModel extends BaseViewModel with DialogHelper {
       callSub?.cancel();
     }
 
-    _navigationService.replaceWith(Routes.treatmentDetailsView,
-        arguments: TreatmentDetailsViewArguments(caseId: call!.caseId));
+    _navigationService.back();
   }
 
   cancelCall() async {

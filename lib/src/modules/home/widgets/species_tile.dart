@@ -1,3 +1,4 @@
+import 'package:lottie/lottie.dart';
 import 'package:petowner/src/constants/assets.dart';
 import 'package:petowner/src/localization/animal_names.dart';
 import 'package:petowner/src/modules/home/models/species_group.dart';
@@ -19,25 +20,30 @@ class SpeciesTile extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Container(
-          height: MediaQuery.of(context).size.height / 7,
-          margin: EdgeInsets.only(bottom: 4),
+          width: double.infinity,
+          height: MediaQuery.of(context).size.height / 5,
+          margin: const EdgeInsets.only(bottom: 4),
           child: Card(
+              color:
+                  getAnimalName(context, species.name).toUpperCase() == "DOGS"
+                      ? const Color(0xffffffff)
+                      : const Color(0xffffffff),
               semanticContainer: true,
               clipBehavior: Clip.antiAliasWithSaveLayer,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(6.0),
               ),
-              elevation: 2,
-              child: FadeInImage.assetNetwork(
-                placeholder: animalPlaceHolder,
-                image: species.image,
-                fit: BoxFit.cover,
+              elevation: 1,
+              child: LottieBuilder.asset(
+                getAnimalName(context, species.name).toUpperCase() == "DOGS"
+                    ? "assets/images/dogs.json"
+                    : "assets/images/cats.json",
               )),
         ),
         UIText.paragraph(
           getAnimalName(context, species.name).toUpperCase(),
           size: TxtSize.Tiny,
-        )
+        ),
       ],
     );
   }

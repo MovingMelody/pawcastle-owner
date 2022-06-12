@@ -11,11 +11,12 @@ class LoginViewModel extends FormViewModel with SnackbarHelper {
   String errorText = "Please enter valid number";
 
   void navigateToVerify() {
-    if (errorText.isEmpty || !hasPhone) return showError(error: errorText);
+    // if (errorText.isEmpty || !hasPhone) return showError(error: errorText);
 
-    if (hasPhone)
+    if (hasPhone) {
       _navigationService.navigateTo(Routes.verifyPhoneView,
           arguments: VerifyPhoneViewArguments(phoneNumber: phoneValue!));
+    }
   }
 
   @override

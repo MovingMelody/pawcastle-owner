@@ -13,13 +13,13 @@ class MedicinesListCard extends StatelessWidget {
       decoration: BoxDecoration(
           color: kSurfaceColor,
           border: Border.all(color: kOutlineColor),
-          borderRadius: BorderRadius.only(
+          borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(8.0), topRight: Radius.circular(8.0))),
-      padding: EdgeInsets.all(14.0),
+      padding: const EdgeInsets.all(14.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          UIText.label("MEDICINES",
+          const UIText.label("MEDICINES",
               size: TxtSize.Tiny, color: kTextSecondaryLightColor),
           verticalSpaceSmall,
           Column(
@@ -65,7 +65,7 @@ class MedicinesListCard extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  UIText.paragraph(
+                  const UIText.paragraph(
                     "Total",
                     size: TxtSize.Small,
                     color: kTextPrimaryLightColor,

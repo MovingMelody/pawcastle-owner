@@ -71,3 +71,4 @@ class AvailableDoctorsView extends StatelessWidget {
     );
   }
 }
+
